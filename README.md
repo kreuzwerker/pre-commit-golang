@@ -5,7 +5,7 @@
 
 # pre-commit-golang
 
-golang hooks for http://pre-commit.com/
+golang hooks for http://pre-commit.com/, golang `1.11+` and `go.mod` only
 
 ## Using these hooks
 

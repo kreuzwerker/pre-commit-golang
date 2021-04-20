@@ -1,0 +1,42 @@
+style: gitlab
+template: CHANGELOG.tpl.md
+info:
+  title: CHANGELOG
+  repository_url: y
+options:
+  commits:
+    # filters:
+    #   Type:
+    #     - feat
+    #     - fix
+    #     - perf
+    #     - refactor
+  commit_groups:
+    sort_by: Custom
+    title_order:
+      - feat
+      - fix
+      - test
+      - perf
+      - docs
+      - refactor
+      - style
+      - chore
+    title_maps:
+      feat: Features
+      fix: Bug Fixes
+      docs: Documentation changes
+      style: Style
+      refactor: Code Refactoring
+      perf: Performance Improvements
+      test: Test improvements
+      chore: Build process, auxiliary tools or libraries changes
+  header:
+    pattern: "^(\\w*)(?:\\(([\\w\\$\\.\\-\\*\\s]*)\\))?\\:\\s(.*)$"
+    pattern_maps:
+      - Type
+      - Scope
+      - Subject
+  notes:
+    keywords:
+      - BREAKING CHANGE
