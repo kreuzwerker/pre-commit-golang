@@ -1,4 +1,8 @@
 
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/kreuzwerker/pre-commit-golang/master.svg)](https://results.pre-commit.ci/latest/github/kreuzwerker/pre-commit-golang/master)
+
+
 # pre-commit-golang
 
 golang hooks for http://pre-commit.com/
