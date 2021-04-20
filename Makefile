@@ -30,7 +30,7 @@ release-%: bin/git-chglog
 ifeq (${TAG}, 1)
 	@echo "Committing and tagging"
 	git add CHANGELOG.md
-	git commit -m 'chore: prepare release $*'
+	SKIP=end-of-file-fixer git commit -m 'chore: prepare release $*'
 	git tag -m 'Release $*' ${TAG_PREFIX}$*
 ifeq (${PUSH}, 1)
 	git push; git push origin ${TAG_PREFIX}$*
