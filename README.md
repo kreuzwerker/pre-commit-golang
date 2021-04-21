@@ -25,7 +25,7 @@ Add this to your `.pre-commit-config.yaml`
 - `no-go-testing` - Checks that no files are using `testing.T`, if you want
   developers to use a different testing framework
 - `golangci-lint` - run `golangci-lint run ./...`, requires
-  [golangci-lint](https://github.com/golangci/golangci-lint)
+  [golangci-lint](https://github.com/golangci/golangci-lint) installed and executable in the `bin` directory of the project
 - `go-unit-tests` - run `go test -tags=unit -timeout 30s -short -v`
 - `go-build` - run `go build`, requires golang
 - `go-mod-tidy` - run `go mod tidy -v`, requires golang
