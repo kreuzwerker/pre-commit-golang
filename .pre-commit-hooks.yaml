@@ -37,3 +37,10 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go mod vendor`, requires golang"
+-   id: semantic-commit-msg
+    name: 'semantic-commit-msg'
+    entry: run-semantic-commit-msg.sh
+    args: [--multiline]
+    language: 'script'
+    stages: [commit-msg]
+    description: "Runs check against commit msg pattern"

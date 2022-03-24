@@ -29,4 +29,3 @@
 * prepare release 0.1.0 (5d79da2)
 * migrate pre-commit config (28b165f)
 * initial commit (a1e0f44)
-
